@@ -15,6 +15,8 @@
 		7503AD140B830BBD9CC5A74F /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = FB7197085D3362009B1F3C9C /* PrivacyInfo.xcprivacy */; };
 		7699B88040F8A987B510C191 /* libPods-BusTickets-BusTicketsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-BusTickets-BusTicketsTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8E67F1B39D9A42739AB913E2 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01F6B918D27D49B396668A43 /* Poppins-Regular.ttf */; };
+		9D398B7298ED48D682168D6B /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 048D1E23F3BF4F93B465BB62 /* Poppins-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +33,8 @@
 		00E356EE1AD99517003FC87E /* BusTicketsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusTicketsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* BusTicketsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BusTicketsTests.m; sourceTree = "<group>"; };
+		01F6B918D27D49B396668A43 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Regular.ttf"; path = "../src/assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		048D1E23F3BF4F93B465BB62 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Medium.ttf"; path = "../src/assets/fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* BusTickets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusTickets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = BusTickets/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = BusTickets/AppDelegate.mm; sourceTree = "<group>"; };
@@ -111,6 +115,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		32D55F894A9341EBA26F6DE7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				048D1E23F3BF4F93B465BB62 /* Poppins-Medium.ttf */,
+				01F6B918D27D49B396668A43 /* Poppins-Regular.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +141,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				32D55F894A9341EBA26F6DE7 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -249,6 +264,8 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				7503AD140B830BBD9CC5A74F /* PrivacyInfo.xcprivacy in Resources */,
+				9D398B7298ED48D682168D6B /* Poppins-Medium.ttf in Resources */,
+				8E67F1B39D9A42739AB913E2 /* Poppins-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
